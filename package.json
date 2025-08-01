@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "live-server"
+    "start": "browser-sync start --config bs-config.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/Igris-12/web_dev#readme",
   "devDependencies": {
-    "live-server": "^1.2.0"
+    "browser-sync": "^3.0.4"
   }
 }
